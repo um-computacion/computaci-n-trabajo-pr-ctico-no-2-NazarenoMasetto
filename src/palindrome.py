@@ -5,4 +5,5 @@ def clean_text(text):
     return ''.join(char.lower() for char in text if char.lower() in allowed)
 
 def is_palindrome(text):
-    pass
+    cleaned = clean_text(text)
+    return cleaned == cleaned[::-1]
