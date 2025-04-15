@@ -8,3 +8,7 @@ class TestPalindrome(unittest.TestCase):
         self.assertTrue(is_palindrome("salas"))
 
     
+def test_phrase_palindromes(self):
+    self.assertTrue(is_palindrome("Anita lava la tina"))
+    self.assertTrue(is_palindrome("La ruta natural"))
+    self.assertTrue(is_palindrome("A mamá Roma le aviva el amor a mamá"))
