@@ -18,3 +18,9 @@ def test_non_palindromes(self):
     self.assertFalse(is_palindrome("hola"))
     self.assertFalse(is_palindrome("computadora"))
     self.assertFalse(is_palindrome("Esto no es un palíndromo"))
+
+
+def test_edge_cases(self):
+    self.assertTrue(is_palindrome(""))
+    self.assertTrue(is_palindrome("a"))
+    self.assertTrue(is_palindrome("A"))
