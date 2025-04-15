@@ -12,3 +12,9 @@ def test_phrase_palindromes(self):
     self.assertTrue(is_palindrome("Anita lava la tina"))
     self.assertTrue(is_palindrome("La ruta natural"))
     self.assertTrue(is_palindrome("A mamá Roma le aviva el amor a mamá"))
+
+
+def test_non_palindromes(self):
+    self.assertFalse(is_palindrome("hola"))
+    self.assertFalse(is_palindrome("computadora"))
+    self.assertFalse(is_palindrome("Esto no es un palíndromo"))
